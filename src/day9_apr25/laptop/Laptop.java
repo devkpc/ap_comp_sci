@@ -12,6 +12,12 @@ public class Laptop {
             this.screenSize = size;
             this.price = cost;
         }
+
+        void display(){
+            System.out.println("Brand: " + brand);
+            System.out.println("Screen Size: " + screenSize);
+            System.out.println("Price: " + price);
+        }
         public String getBrand()
         {
             return brand;
