@@ -15,9 +15,15 @@ public class TernaryTwo {
 
 
 
-    double testScore = 89.0;
-    char grade = testScore >= 90 ? 'A' : testScore >= 80 && testScore < 90 'B' : testScore >= 70 && testScore < 80 'C' ; testScore >= 60 && testScore < 70 'D' : testScore >= 50 && testScore < 60 'F';
+    double testScore = 54.9;
+//    char grade = testScore >= 90 ? 'A' : testScore >= 80 && testScore < 90 'B' : testScore >= 70 && testScore < 80 'C' ; testScore >= 60 && testScore < 70 'D' : testScore >= 50 && testScore < 60 'F';
 
+        char grade = testScore >= 90 ? 'A'
+                : testScore>=80 ? 'B'
+                : testScore>=70 ? 'C'
+                : testScore>=60 ? 'D'
+                :'F';
 
+        System.out.println(grade);
     }
 }
